@@ -1,0 +1,56 @@
+body{
+	
+	
+
+}
+.body2{
+    position: fixed; 
+    overflow-y: scroll;
+    width: 100%;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+	background: url(nature.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:  cover;
+	-webkit-filter: blur(3px);
+	
+}
+.thug{
+	margin: 20px auto;
+	width: 500px;
+	color: #009999;
+	margin-left: 30%;
+	margin-top: 2%;
+	position: absolute;
+	height: 250px;
+	padding: 10px;
+	font-size: 20px;
+}
+.lekha{
+	font-family: Baskerville Old Face;
+	color: #330000;
+	font-size: 70px;
+	margin-left: -10%;
+	margin-top: 10px;
+	max-width: 500px;
+	
+}
+.hoo{
+	width: 100%;
+	float: right;
+	list-style-type: none;
+	margin-top: 102%;
+	margin-right: 100%;
+	font-size: 25px;
+}
+.header2{
+	position: absolute;
+	top: calc(100% - 0%);
+	left: calc(10% - 30%);
+	color:black;
+}
