@@ -1,0 +1,103 @@
+.body{
+    position: fixed; 
+    overflow-y: scroll;
+    width: 100%;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+	background-image: url(nabolse.jpg);
+	background-size: cover;
+	-webkit-filter: blur(5px);
+	
+}
+.hoo{
+	width: 100%;
+	float: right;
+	list-style-type: none;
+	margin-top: 100%;
+	margin-right: 100%;
+	font-size: 25px;
+}
+.header{
+	position: absolute;
+	float: right;
+	margin-top: 15%;
+	margin-left: 15%;
+}
+.header2{
+	position: absolute;
+	top: calc(50% - 0%);
+	left: calc(50% - 30%);
+	
+	
+}
+.header div{
+	float: left;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 60px;
+	font-weight: 200;
+}
+
+.header div span{
+	color: #F29E20 !important;
+}
+
+.login{
+	position: absolute;
+	top: calc(50% - 75px);
+	left: calc(50% - 50px);
+	height: 150px;
+	width: 350px;
+	padding: 10px;
+
+}
+
+.login input[type=text]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+
+}
+
+.login input[type=password]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+
+}
+.login input[type=button]{
+	width: 260px;
+	height: 35px;
+	background: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #a18d6c;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+::-webkit-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}

@@ -1,0 +1,99 @@
+body{
+	
+	
+
+}
+.body2{
+    position: fixed; 
+    overflow-y: scroll;
+    width: 100%;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+	background: url(hobe.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:  cover;
+	-webkit-filter: blur(3px);
+	
+}
+.lekha{
+	font-family: Droid Serif;
+	color: white;
+	font-size: 50px;
+	margin-left: 10%;
+	margin-top: 10px;
+	max-width: 500px;
+	
+}
+.hoo{
+	width: 100%;
+	float: right;
+	list-style-type: none;
+	margin-top: 102%;
+	margin-right: 100%;
+	font-size: 25px;
+}
+.header2{
+	position: absolute;
+	top: calc(50% - 0%);
+	left: calc(50% - 30%);
+	color:black;
+}
+.thug{
+	margin: 20px auto;
+	width: 500px;
+	color: #009999;
+	margin-left: 30%;
+	margin-top: 2%;
+	position: absolute;
+	height: 250px;
+	padding: 10px;
+	font-size: 20px;
+}
+.thug input[type="text"]{
+	float: right;
+	padding: 5px;
+	width:60%;
+	height:20px;
+	border: 2px solid white;
+}
+.thug input[type="email"]{
+	bottom: 25px;
+	float: right;
+	padding: 5px;
+	width:60%;
+	height:20px;
+	border: 2px solid white;
+}
+.thug input[type="password"]{
+	bottom: 25px;
+	float: right;
+	padding: 5px;
+	width:60%;
+	height:20px;
+	border: 2px solid white;
+}
+.thug input[type="int"]{
+	bottom: 25px;
+	float: right;
+	padding: 5px;
+	width:60%;
+	height:20px;
+	border: 2px solid white;
+}
+.thug input[type="submit"]{
+	width: 200px;
+	height: 45px;
+	border: none;
+	background: steelblue;
+	color: white;
+}
+.thug input[type=submit]:hover{
+	opacity: 0.8;
+}
+
+
